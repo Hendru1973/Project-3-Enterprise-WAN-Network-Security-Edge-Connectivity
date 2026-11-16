@@ -47,7 +47,6 @@ Simulasi dan implementasi arsitektur jaringan *multi-site enterprise* menggunaka
 -<img width="532" height="378" alt="Screenshot 2026-11-17 003819" src="https://github.com/user-attachments/assets/4f1825df-585d-42c3-8777-90725a8cf1f3" />
 
 
-
 - **NAT Translation (`show ip nat translations`):** Terbukti alamat lokal `192.168.10.10` ditranslasikan secara dinamis ke IP publik `200.10.10.1` menggunakan port PAT unik.
 - <img width="643" height="175" alt="Screenshot 2026-11-17 004619" src="https://github.com/user-attachments/assets/b42c1f06-4ad3-4dc1-86df-ee66eb4a6aa8" />
 
@@ -55,6 +54,3 @@ Simulasi dan implementasi arsitektur jaringan *multi-site enterprise* menggunaka
 - <img width="563" height="125" alt="Screenshot 2026-11-17 005122" src="https://github.com/user-attachments/assets/48f2123e-9a6a-4a9c-a043-8c908ed3dc73" />
 -<img width="596" height="501" alt="Screenshot 2026-11-17 005913" src="https://github.com/user-attachments/assets/3a7ae7fa-8c5d-424b-99d2-3e423597c3f3" />
 
-
-
-![IPsec VPN & NAT Verification](screenshots/verification-cli.png)
