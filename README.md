@@ -42,7 +42,19 @@ Simulasi dan implementasi arsitektur jaringan *multi-site enterprise* menggunaka
 ## Verifikasi & Pengujian
 
 - **End-to-End Connectivity (`ping`):** Seluruh host antar-VLAN, antar-site (via VPN), dan menuju publik (`8.8.8.8`) berhasil terhubung (*Reply 100%*).
+- <img width="596" height="422" alt="Screenshot 2026-11-17 003546" src="https://github.com/user-attachments/assets/233f0732-d381-4909-9241-81575caeaadc" />
+-<img width="581" height="341" alt="Screenshot 2026-11-17 003728" src="https://github.com/user-attachments/assets/721ae78f-3e86-43a0-b996-c3954aff2cdc" />
+-<img width="532" height="378" alt="Screenshot 2026-11-17 003819" src="https://github.com/user-attachments/assets/4f1825df-585d-42c3-8777-90725a8cf1f3" />
+
+
+
 - **NAT Translation (`show ip nat translations`):** Terbukti alamat lokal `192.168.10.10` ditranslasikan secara dinamis ke IP publik `200.10.10.1` menggunakan port PAT unik.
+- <img width="643" height="175" alt="Screenshot 2026-11-17 004619" src="https://github.com/user-attachments/assets/b42c1f06-4ad3-4dc1-86df-ee66eb4a6aa8" />
+
 - **IPsec Security Association (`show crypto ipsec sa`):** Terowongan berstatus `ACTIVE` dengan penghitung paket terenkripsi (`#pkts encaps` & `#pkts decaps`) meningkat dua arah menggunakan `esp-aes 256`.
+- <img width="563" height="125" alt="Screenshot 2026-11-17 005122" src="https://github.com/user-attachments/assets/48f2123e-9a6a-4a9c-a043-8c908ed3dc73" />
+-<img width="596" height="501" alt="Screenshot 2026-11-17 005913" src="https://github.com/user-attachments/assets/3a7ae7fa-8c5d-424b-99d2-3e423597c3f3" />
+
+
 
 ![IPsec VPN & NAT Verification](screenshots/verification-cli.png)
