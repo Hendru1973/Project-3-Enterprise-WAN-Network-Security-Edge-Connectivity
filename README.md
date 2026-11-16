@@ -2,7 +2,8 @@
 
 Simulasi dan implementasi arsitektur jaringan *multi-site enterprise* menggunakan Cisco Packet Tracer yang menghubungkan Kantor Pusat (**HQ**) dan Kantor Cabang (**Branch**) melalui infrastruktur ISP publik dengan mengamankan pertukaran data internal menggunakan terowongan **Site-to-Site IPsec VPN (AES-256)** serta menyediakan akses internet melalui **NAT/PAT Overload**.
 
-![Network Topology](screenshots/topology-overview.png)
+![Network Topology](<img width="976" height="697" alt="Topologi" src="https://github.com/user-attachments/assets/a408eea1-d9a7-444f-8919-2a1ac42384db" />
+.png)
 
 ---
 
